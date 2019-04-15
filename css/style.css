@@ -1,0 +1,59 @@
+.wrapper {
+  margin: 10px auto;
+  width: 96%;
+  font-family: sans-serif;
+  color: #fffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+h2 {
+  font-size:20px;
+  margin-bottom:10px;
+  color:#ae2f40;
+  border-bottom:10px solid #f1f1f1;
+  padding-bottom:10px;
+}
+.tabs li {
+  float: left;
+  width: 20%;
+
+}
+.tabs img {
+	width: 7%;
+	
+}
+.tabs a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #888;
+  padding: 15px 0;
+  border-bottom: 3px solid #FFA500;
+  background: #f7f7f7;
+  -webkit-border-top-left-radius: 3px;
+  -webkit-border-top-right-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -moz-border-radius-topright: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size:15px;
+}
+.tabs a:hover,
+.tabs a.active {
+  background: #FFA500;
+  color:#FFF;
+  font-weight:bold;
+  transition: background-color 2s ease;
+}
+.tabgroup {
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
